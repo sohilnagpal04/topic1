@@ -1,18 +1,21 @@
-*{
-    margin: 0px;
-    padding: 0px;
+/* *{
     font-family: Arial;
-
 }
 
-body,html{
+body{
     height: 100%;
+    background-color: aliceblue;
+}
+
+header{
+    width: 100%;
+    background-color: yellow;
 }
 
 .header{
     width: 100%;
     height: 260vh;
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bground1.jpg);
+    /* background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bground1.jpg);
     background-position: center;
     background-size: cover;
     color: lightblue;
@@ -23,7 +26,7 @@ body,html{
     margin: auto;
     display: flex;
     margin-left: 10%;
-    justify-content: space-between;    
+    justify-content: space-between; 
 }
 
 
@@ -35,7 +38,49 @@ body,html{
 .summary{
     width: 95%;
     position: absolute;
-    color: #fff;
+    /* color: #fff;
     margin-left: 30px;
     
+}
+
+h2{
+    color: lightsalmon;
+}
+
+b{
+    color: lightseagreen;
+} */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: bisque;
+}
+
+header{
+    background-color: rgb(171, 139, 101);
+    width: 100%;
+    margin-top: -50px;
+}
+
+nav li{
+    color: black;
+}
+
+nav a{
+    color: black;
+}
+
+nav li:hover{
+    color: red;
+}
+
+nav a:hover{
+    color: red;
+}
+
+#Activity2{
+    background-color: ;
 }
